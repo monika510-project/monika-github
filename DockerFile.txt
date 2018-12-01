@@ -2,8 +2,6 @@ FROM centos:latest
 
 RUN yum install -y http
 
-EXPORT 80 
-
-MAINTAINER  	
+EXPORT 80   	
 
 CMD service httpd restart && /bin/bash
