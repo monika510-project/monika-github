@@ -5,3 +5,35 @@ RUN yum install -y http
 EXPORT 80   	
 
 CMD service httpd restart && /bin/bash
+
+
+========================================================
+we have a product like a lowes website for desktop , mobile app and so on.
+
+Version control : developer write the code and commit it into version control system like git. then it goes to the "build" phase.
+
+it is the first phase of the pipeline. In "BUILD" phase , where you compile your code. Once you done with build phase, we will move 
+
+on to "UNIT TEST" we have various type of the test depand upon type of company and depand upon type of product your company is working.
+
+UNIT TEST : in this your complete software divided into small chunks , divided into small units and you will test so that you will have 
+
+assurence that this particular part is working fine. once this test is done one more testing has to be done that is "integration testing"
+
+in which we test that all these parts can work together/each other or not. So it comes under testing. once this is done we will move 
+
+on to "DEPLOY" phase. This is the phase where you will deploy your code to the staging area or test server where your going to view your 
+
+code and then you can go for another test "AUTO TEST" and once you think that all the parts of code working fine. we can move on to 
+
+production and if any error comes developers again move that it to version control system.
+
+
+Continuos integration : Integration means you merge the branches of the code 
+
+
+rose 
+
+tang 
+
+
